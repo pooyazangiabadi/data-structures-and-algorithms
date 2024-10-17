@@ -8,7 +8,7 @@ public class CountingSort {
         System.out.println(Arrays.toString(sorted));
     }
 
-    private static int[] countingSort(int[] arr){
+    private static int[] countingSort(int[] arr) {
         int max = Arrays.stream(arr).max().getAsInt();
 
         int[] countingArray = new int[max+1];
